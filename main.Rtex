@@ -1,0 +1,87 @@
+\documentclass[aspectratio=169]{beamer}
+% The values that it accepts are: 1610, 169, 149, 54, 43 and 32, which stand for the ratios 16:10, 16:9, 14:9, 5:4, 4:3 and 3:2, respectively.
+
+\newcommand{\R}{\mathbb{R}}
+\usepackage{xspace}
+\newcommand{\SEP}{$\mathcal S$\xspace}
+\newcommand{\K}{$\mathcal K$\xspace}
+\newcommand{\Ko}{\mathcal K}
+\usepackage{silence}
+\usepackage{multicol}
+\WarningsOff[everypage]
+
+\include{varia/preamble}
+
+\title[Kolmogorov Theory: An Algorithmic Perspective on Linking Structured Experience, Dynamics, and Symmetry]
+{Kolmogorov Theory: An Algorithmic Perspective on Linking Structured Experience, Dynamics, and Symmetry}
+%\subtitle[]{}
+
+\author[Ruffini et al.]{Giulio Ruffini, \textbf{Ed Lopez-Sola}, Roser Sanchez-Todo, \\ Francesca Castaldo, Jakub Vohryzek (Platonia Pirates)}
+\institute[Neuroelectrics]
+{
+	Brain Modeling Department, 
+	Neuroelectrics Barcelona, Barcelona \\
+ Universitat Pompeu Fabra (UPF) \\
+ (Bamberg, Oct 2024) \\
+	\medskip
+	{\emph{giulio.ruffini@neuroelectrics.com, edmundo.lopez@neuroelectrics.com}}
+}
+
+\begin{document}
+
+
+
+\sloppy
+
+%% =========
+%% page titre
+%% =========
+
+%% uncomment for cool titlepage
+% \include{0_pagetitre}
+
+%% comment for cool titlepage
+
+\begin{frame}[label=titre, plain]
+ \titlepage
+ \begin{center}%\includegraphics[height=1.2cm]{COPL}%
+  %\hspace{2cm}
+  \includegraphics[height=1.4cm]{img/Neuroelectrics_logo.png}\end{center}
+%   \includegraphics[height=2cm]{img/UL_actu.pdf}\end{center}
+\end{frame}
+
+%% =========
+%% TOC
+%% =========
+\begin{frame}[label=toc]{Overview}
+ \setlength{\leftskip}{5cm}%
+ \tableofcontents[subsectionstyle=hide]
+\end{frame}
+
+%% =========
+%% Contenu
+%% =========
+
+\include{1_introduction} 
+\include{2_AIT}
+\include{3_hypothesis}
+\include{4_agent}
+\include{5_criticality}
+\include{6_neurophenomenology}
+\include{7_closing}
+
+%% =========
+%% Biblio
+%% =========
+
+\begin{frame}[allowframebreaks]{References}
+\bibliographystyle{alpha} 
+\bibliography{varia/kolmogorov,references}  
+ 
+\end{frame}
+
+
+
+% End of slides
+\end{document}
+
