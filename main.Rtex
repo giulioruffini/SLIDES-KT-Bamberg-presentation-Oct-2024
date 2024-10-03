@@ -11,18 +11,19 @@
 \WarningsOff[everypage]
 
 \include{varia/preamble}
-
-\title[Kolmogorov Theory: An Algorithmic Perspective on Linking Structured Experience, Dynamics, and Symmetry]
+\date{}
+\title[Kolmogorov Theory: An Algorithmic Perspective Linking Structured Experience, Dynamics, and Symmetry]
 {Kolmogorov Theory: An Algorithmic Perspective on Linking Structured Experience, Dynamics, and Symmetry}
 %\subtitle[]{}
 
-\author[Ruffini et al.]{Giulio Ruffini, \textbf{Ed Lopez-Sola}, Roser Sanchez-Todo, \\ Francesca Castaldo, Jakub Vohryzek (Platonia Pirates)}
+\author[Ruffini et al.]{Giulio Ruffini, \textbf{Edmundo Lopez-Sola}, Roser Sanchez-Todo, \\ Francesca Castaldo, Jakub Vohryzek  \\
+\textit{Platonia Pirates}}
 \institute[Neuroelectrics]
 {
 	Brain Modeling Department, 
 	Neuroelectrics Barcelona, Barcelona \\
  Universitat Pompeu Fabra (UPF) \\
- (Bamberg, Oct 2024) \\
+ (MOC5, Bamberg, Oct 2024) \\
 	\medskip
 	{\emph{giulio.ruffini@neuroelectrics.com, edmundo.lopez@neuroelectrics.com}}
 }
@@ -46,7 +47,7 @@
  \titlepage
  \begin{center}%\includegraphics[height=1.2cm]{COPL}%
   %\hspace{2cm}
-  \includegraphics[height=1.4cm]{img/Neuroelectrics_logo.png}\end{center}
+  \includegraphics[height=1.cm]{img/Neuroelectrics_logo.png}\end{center}
 %   \includegraphics[height=2cm]{img/UL_actu.pdf}\end{center}
 \end{frame}
 
@@ -75,7 +76,7 @@
 %% =========
 
 \begin{frame}[allowframebreaks]{References}
-\bibliographystyle{alpha} 
+\bibliographystyle{unsrtnat} 
 \bibliography{varia/kolmogorov,references}  
  
 \end{frame}
