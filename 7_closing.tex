@@ -15,15 +15,46 @@
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[label=ladila]{Ethics}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[label=ladila]{Neurobiology}
+ \begin{center}
+  \includegraphics[height=6cm]{img/agent_neuro.png}
+  \end{center}
 
-KT does not grant any special status to humans:  all \textbf{agents} enjoy structured experience with  \textbf{pleasure/pain (valence)}. \vfill
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[label=ladila]{Neurobiology}
+%Theories of cortical processing emphasize the separation of forward and backward information flow in the cortex also mirrored at the level of single cortical pyramidal cells \citep{CarhartHarris2019,Aru2020}. 
+
+The \textbf{Comparator}, crucial for \SEP, is implemented hierarchically in L5 P cells\citep{CarhartHarris2019,Aru2020} (posterior hot zone). \vspace{0.5cm}
+
+ 
+  \includegraphics[height=4.cm]{img/Figure1_StructuredDynamics.png}
+\includegraphics[height=4.cm]{img/F1.large.jpg}
+\includegraphics[height=4.cm]{img/gr2.jpeg}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{frame}[label=ladila]{Ethics}
+ %To be connected with (neuro)biology.
+ KT does not grant any special status to humans:  all \textbf{agents} enjoy structured experience with  \textbf{pleasure/pain (valence)}. \vfill
+ \begin{center}
+  \includegraphics[height=6cm]{img/Figure1_StructuredDynamics.png}
+  \end{center}
+
+\end{frame}
+
+
+
+\begin{frame}[label=ladila]{Ethics}
 
 
 The framework has other implications. E.g.,  \textit{morality}:  natural notions of {\em good} or {\em evil} in computational terms. \vfill
 
-E.g., we may say that Agent's $A$ is \textbf{good} to Agent $B$ if the objective function   $O_A$ increases when O$_B$ increasing, that is $O_A(O_B)$ is increasing or  $O_A'(O_B) >0$ (and viceversa for \textbf{evil}).
+E.g., we may say that Agent's $A$ is \textbf{evil} to Agent $B$ if the objective function   $O_A$ increases when O$_B$ decreases, that is $O_A(O_B)$ is decreasing or  $O_A'(O_B) <0$ (and viceversa for \textbf{kind}).
  \vfill
  
 % Conversely, we say that Agent $A$ is {\em good or morally right} to Agent $B$ if $O_A'(O_B) >0$. \vfill 
@@ -31,6 +62,22 @@ E.g., we may say that Agent's $A$ is \textbf{good} to Agent $B$ if the objective
 %Synergistic behavior emerges when agents are \textit{kind} to each other, while mutually-destructive behavior takes place in the complementary case.  
  
 \end{frame}
+
+
+\begin{frame}[label=ladila]{Emotion \cite{ruffini_algorithmic_2024}}
+ 
+   To include the experience dimension of \textbf{valence} in the agent, we define: 
+\begin{definition}[Emotional state or Mood of an Agent] 
+The {\bf emotional state} of the Agent is the tuple E = (Model, Valence). 
+\end{definition}
+In first-person language, {\em emotion is structured experience with valence}, and can be described along dimensions characterizing model structure (simplicity, breadth, accuracy, etc.) plus valence.  
+  \begin{definition}[Depressed Agent] 
+{\bf Depression} is a pathological state in which the output value of the Objective Function (valence) of an agent is persistently low.
+\end{definition}
+    
+ 
+\end{frame}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[label=ladila]{Future}
@@ -58,18 +105,23 @@ Design model-building agents mimicking life or intelligence.
 
 \begin{figure}
         \centering
-        \includegraphics[width=0.75\linewidth]{image8.png}
-    \end{figure}
+        \includegraphics[width=0.81\linewidth]{image8b.png}
+        \end{figure}
+     
         
    % Titled “The Mathematics of Structured Experience: Exploring Dynamics, Topology, and Complexity in the Brain”, this Special Issue aims to explore several key areas in this program:
 
 %Characteristics of compressive world models;  We aim to delve into the nature of the world models created and run by natural and artificial agents. What do we mean, precisely, by a world model? What is the connection between program structure and the resulting dynamics? What is the role of symmetry and criticality in shaping world models and programs, and how do they enable agents to encapsulate the world's complexity in a comprehensible form?
-\textbf{Topics}: Characteristics of compressive world models; Mapping models to dynamical systems;  
-%A crucial exploration will be how compressive world model characteristics translate into the workings of agents as dynamical systems and their features, especially recurrent neural networks. Topics include the study of geometry and topology of invariant manifolds, dimensionality reduction (manifold hypothesis), dynamical latent spaces, and their connection with algorithmic concepts such as compression and symmetry. We invite contributions that use tools from dynamical systems theory, geometry, topology, and criticality to characterize and understand the underlying dynamics of biological or artificial systems and their relation to the data they generate (neuroimaging/neurophysiology or other data).
-Empirical paradigms for validation; 
-%This Special Issue also seeks to address the design of experimental paradigms aimed at validating these concepts. Specifically, we are interested in establishing connections between features derived from structured experience reports or other behavior and the observed structure in the brain (or, more generally, complex systems) dynamics (e.g., as measured by neuroimaging techniques) using the tools mentioned in the previous points. Application areas include the study of states of consciousness and disorders of consciousness, as well as non-human consciousness, using currently available datasets or through the design of specific experiments.
-Implications for the design of AI and computational models of the brain. %How does this perspective influence research on artificial systems or computational models of the brain? What are the design principles inspired by the mathematics of algorithmic agenthood that can be used in artificial intelligence or computational neuroscience? 
+ 
+
+\begin{tcolorbox}[colback=gray!10, colframe=gray!70, title={Topics}]
+  Characteristics of compressive world models; Mapping models to dynamical systems;  
+Empirical paradigms; 
+AI and computational  brain modeling. 
+\end{tcolorbox}
 \end{frame}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[label=ladila]{Thanks}
 \vfill

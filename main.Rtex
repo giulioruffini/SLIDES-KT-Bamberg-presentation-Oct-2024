@@ -23,7 +23,7 @@
 	Brain Modeling Department, 
 	Neuroelectrics Barcelona, Barcelona \\
  Universitat Pompeu Fabra (UPF) \\
- (MOC5, Bamberg, Oct 2024) \\
+ (MOC5, Bamberg, Oct 4th, 2024) \\
 	\medskip
 	{\emph{giulio.ruffini@neuroelectrics.com, edmundo.lopez@neuroelectrics.com}}
 }
@@ -54,10 +54,7 @@
 %% =========
 %% TOC
 %% =========
-\begin{frame}[label=toc]{Overview}
- \setlength{\leftskip}{5cm}%
- \tableofcontents[subsectionstyle=hide]
-\end{frame}
+
 
 %% =========
 %% Contenu
@@ -65,8 +62,8 @@
 
 \include{1_introduction} 
 \include{2_AIT}
-\include{3_hypothesis}
-\include{4_agent}
+%\include{3_hypothesis}
+%\include{4_agent}
 \include{5_criticality}
 \include{6_neurophenomenology}
 \include{7_closing}
